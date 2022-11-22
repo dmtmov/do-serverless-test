@@ -1,6 +1,11 @@
 def main(args):
-      name = args.get("name", "stranger")
-      greeting = "Hello " + name + "!"
-      print(greeting)
-      return {"body": greeting}
+      body = """
+      <html>
+    <head>
+        <title>mstd</title>
+    </head>
+    <body>Something is comming...</body>
+    </html>
+      """
+      return {"body": body}
   
