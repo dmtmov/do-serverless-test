@@ -1,7 +1,6 @@
-# describe project structure
-
 packages:
   - name: sample
     actions:
       - name: hello
         runtime: 'python:default'
+        main: ''
