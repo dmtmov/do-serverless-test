@@ -5,9 +5,9 @@ functions:
 - github:
     branch: master
     deploy_on_push: true
-    repo: digitalocean/sample-functions-python-helloworld
+    repo: dmtmov/do-serverless-test
   name: py-api
   routes:
   - path: /
   source_dir: /
-name: python-helloworld
+name: do-serverless-test
