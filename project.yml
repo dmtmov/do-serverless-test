@@ -1,5 +1,7 @@
+# describe project structure
+
 packages:
-  - name: do-serverless-test
+  - name: sample
     actions:
-      - name: hey
+      - name: hello
         runtime: 'python:default'
