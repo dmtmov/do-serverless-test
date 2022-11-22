@@ -1,5 +1,5 @@
 packages:
-  - name: sample
+  - name: do-serverless-test
     actions:
-      - name: hello
+      - name: hey
         runtime: 'python:default'
